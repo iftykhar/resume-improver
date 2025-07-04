@@ -1,16 +1,4 @@
-import React from 'react';
-import {userState} from 'react';
-
-// const Resumeform = () => {
-//   return (
-//     <div>
-      
-//     </div>
-//   )
-// }
-
-// export default Resumeform
-
+import React, { useState } from 'react';
 
 export default function ResumeForm() {
   const [resume, setResume] = useState('');
